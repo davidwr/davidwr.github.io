@@ -2,7 +2,7 @@
   "name": "davidwr-resume",
   "version": "0.0.1",
   "private": true,
-  "homepage": "./",
+  "homepage": "http://davidwr.github.io/davidwr-resume",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "jquery": "^3.6.0",

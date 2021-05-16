@@ -1,11 +1,13 @@
-import React, { Component } from "react"
-import { Fade, Slide } from "react-reveal"
+// Make sure to run npm install @formspree/react
+// For more help visit https://formspr.ee/react-help
 
-class Contact extends Component {
-  render() {
-    if (!this.props.data) return null
-    const message = this.props.data.contactmessage
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import { Fade, Slide } from 'react-reveal';
 
+function Contact(props) {
+  const [state, handleSubmit] = useForm('mayaedqe');
+  if (state.succeeded) {
     return (
       <section id="contact">
         <Fade bottom duration={1000}>
@@ -17,85 +19,10 @@ class Contact extends Component {
             </div>
 
             <div className="nine columns">
-              <p className="lead">{message}</p>
+              <p className="lead">Your e-mail has been sent! Thank you!</p>
             </div>
           </div>
         </Fade>
-
-        <div className="row">
-          <Slide left duration={1000}>
-            <div className="twelve columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
-                <fieldset>
-                  <div>
-                    <label htmlFor="contactName">
-                      Name <span className="required">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactName"
-                      name="contactName"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactEmail"
-                      name="contactEmail"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactSubject">Subject</label>
-                    <input
-                      type="text"
-                      defaultValue=""
-                      size="35"
-                      id="contactSubject"
-                      name="contactSubject"
-                      onChange={this.handleChange}
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
-                    </label>
-                    <textarea
-                      cols="50"
-                      rows="15"
-                      id="contactMessage"
-                      name="contactMessage"
-                    ></textarea>
-                  </div>
-
-                  <div>
-                    <button className="submit">Submit</button>
-                    <span id="image-loader">
-                      <img alt="" src="images/loader.gif" />
-                    </span>
-                  </div>
-                </fieldset>
-              </form>
-
-              <div id="message-warning"> Error boy</div>
-              <div id="message-success">
-                <i className="fa fa-check"></i>Your message was sent, thank you!
-                <br />
-              </div>
-            </div>
-          </Slide>
-        </div>
 
         <footer>
           <div className="row">
@@ -107,8 +34,69 @@ class Contact extends Component {
           </div>
         </footer>
       </section>
-    )
+    );
   }
+
+  if (!props.data) return null;
+  const message = props.data.contactmessage;
+
+  return (
+    <section id="contact">
+      <Fade bottom duration={1000}>
+        <div className="row section-head">
+          <div className="three columns header-col">
+            <h1>
+              <span>Get In Touch.</span>
+            </h1>
+          </div>
+
+          <div className="nine columns">
+            <p className="lead">{message}</p>
+          </div>
+        </div>
+      </Fade>
+      <div className="row">
+        <Slide left duration={1000}>
+          <div className="twelve columns">
+            <form onSubmit={handleSubmit} id="contactForm" name="contactForm">
+              <fieldset>
+                <label htmlFor="email">
+                  Email Address <span className="required">*</span>
+                </label>
+                <input id="email" type="email" name="email" />
+                <ValidationError prefix="Email" field="email" errors={state.errors} />
+                <div>
+                  <label htmlFor="message">
+                    Message <span className="required">*</span>
+                  </label>
+                  <textarea cols="50" rows="15" id="message" name="message"></textarea>
+                </div>
+                <ValidationError prefix="Message" field="message" errors={state.errors} />
+                <div>
+                  <button className="submit" disabled={state.submitting}>
+                    Submit
+                  </button>
+                  <span id="image-loader">
+                    <img alt="" src="images/loader.gif" />
+                  </span>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </Slide>
+      </div>
+
+      <footer>
+        <div className="row">
+          <div id="go-top">
+            <a className="smoothscroll" title="Back to Top" href="#home">
+              <i className="icon-up-open"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  );
 }
 
-export default Contact
+export default Contact;

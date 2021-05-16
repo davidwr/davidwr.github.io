@@ -1,12 +1,12 @@
-import React, { Component } from "react"
-import ParticlesBg from "particles-bg"
-import Fade from "react-reveal"
+import React, { Component } from 'react';
+import ParticlesBg from 'particles-bg';
+import Fade from 'react-reveal';
 
 class Header extends Component {
   render() {
-    if (!this.props.data) return null
-    const name = this.props.data.name
-    const description = this.props.data.description
+    if (!this.props.data) return null;
+    const name = this.props.data.name;
+    const description = this.props.data.description;
 
     const networks = this.props.data.social.map(function (network) {
       return (
@@ -15,8 +15,8 @@ class Header extends Component {
             <i className={network.className}></i>
           </a>
         </li>
-      )
-    })
+      );
+    });
 
     return (
       <header id="home">
@@ -85,8 +85,8 @@ class Header extends Component {
           </a>
         </p>
       </header>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;

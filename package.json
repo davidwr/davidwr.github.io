@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://davidwr.github.io/davidwr-resume",
   "dependencies": {
+    "@formspree/react": "^2.2.3",
     "@testing-library/jest-dom": "^5.11.4",
     "jquery": "^3.6.0",
     "particles-bg": "^2.5.5",
@@ -14,7 +15,7 @@
     "react-zmage": "^0.8.5-beta.36"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER='google-chrome-stable' react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

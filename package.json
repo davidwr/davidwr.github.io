@@ -2,7 +2,7 @@
   "name": "davidwr-resume",
   "version": "0.0.1",
   "private": true,
-  "homepage": "http://davidwr.github.io/davidwr-resume",
+  "homepage": "http://davidwr.github.io",
   "dependencies": {
     "@formspree/react": "^2.2.3",
     "@testing-library/jest-dom": "^5.11.4",

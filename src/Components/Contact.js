@@ -58,7 +58,7 @@ function Contact(props) {
       <div className="row">
         <Slide left duration={1000}>
           <div className="twelve columns">
-            <form onSubmit={handleSubmit} id="contactForm" name="contactForm">
+            <form method="POST" action="http://formspree.io/david_rigamonte3@hotmail.com" onSubmit={handleSubmit} id="contactForm" name="contactForm">
               <fieldset>
                 <label htmlFor="email">
                   Email Address <span className="required">*</span>
@@ -73,7 +73,7 @@ function Contact(props) {
                 </div>
                 <ValidationError prefix="Message" field="message" errors={state.errors} />
                 <div>
-                  <button className="submit" disabled={state.submitting}>
+                  <button type="submit" disabled={state.submitting}>
                     Submit
                   </button>
                   <span id="image-loader">

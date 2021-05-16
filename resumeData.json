@@ -1,0 +1,106 @@
+{
+  "main": {
+    "name":"David William Rigamonte",
+    "description":"Senior Software Developer",
+    "image":"profilepic.jpeg",
+    "bio":"Hi, I'm David. I am enthusiastic for information technology, and problem solving.",
+    "contactmessage":"Please feel free to contact me.",
+    "email": "david_rigamonte3@hotmail.com",
+    "phone": "",
+    "github":"https://github.com/davidwr",
+    "project":"https://github.com/davidwr",
+    "address":{
+      "country":"Brazil",
+      "city":"Maringá",
+      "state":"PR",
+      "zip": ""
+    },
+    "website": "https://davidwr.github.io",
+    "resumedownload":"https://davidwr.github.io",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/david.rigamonte",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/davidrigamonte/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/davidrigamonte/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/davidwr",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Unicesumar",
+        "degree":"Bachelor’s Degree in Information Systems",
+        "graduated":"2014",
+        "description":"In my graduation I had the opportunity to delve into several issues that set up my base to start a career: Object Orientation, interaction design, design patterns, project management, operations research, java development and c ++, database, operating systems, business modeling, economics, computer networks, among others. ESCOLA DE TI (IT School). In the final exam, my team and I (8 members) developed a full web application with back-end and front-end on Java Spring MVC for a Non-governmental organization for blind people. In addition to the programmer function I exercised the scrum master function for much of the time."
+      }
+    ],
+    "work":[
+      {
+        "company":"TecnoSpeed TI",
+        "title":"Full Stack Software Developer",
+        "years":"June 2013 - Present",
+        "description":"Now working at a product called PlugNotas, a modern API, handling a millions of JSON requests in back-end, asyncronous processing, webhooks and using the best practices. Developing a lot of micro services from zero to full deployed on AWS using Elastic Container Services."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Node.js and Back-end development",
+        "level":"95%"
+      },
+      {
+        "name":"AWS Services",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJs and Front-end",
+        "level":"35%"
+      },
+      {
+        "name":"Scrum",
+        "level":"85%"
+      },
+      {
+        "name":"SQL, Postgres and MongoDB",
+        "level":"80%"
+      },
+      {
+        "name":"GoLang",
+        "level":"25%"
+      },
+      {
+        "name":"Delphi",
+        "level":"70%"
+      },
+      {
+        "name":"Java",
+        "level":"40%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Lorem",
+        "category":"Ipsum",
+        "image":"01.jpg",
+        "url":"https://davidwr.github.io"
+      }
+    ]
+  }
+}

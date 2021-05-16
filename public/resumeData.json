@@ -16,7 +16,7 @@
       "zip": ""
     },
     "website": "https://davidwr.github.io",
-    "resumedownload":"https://davidwr.github.io",
+    "resumedownload":"https://s3.amazonaws.com/davidwr.github.io/RESUME.pdf",
     "social":[
       {
         "name":"facebook",

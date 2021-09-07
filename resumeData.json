@@ -52,6 +52,12 @@
     ],
     "work":[
       {
+        "company":"Big Viking Games",
+        "title":"Intermediate Software Developer",
+        "years":"Aug 2021 - Present",
+        "description":"Maintaining and developing Facebook games."
+      },
+      {
         "company":"TecnoSpeed TI",
         "title":"Full Stack Software Developer",
         "years":"June 2013 - Present",

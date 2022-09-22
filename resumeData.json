@@ -53,8 +53,14 @@
     "work":[
       {
         "company":"Big Viking Games",
+        "title":"Senior Software Developer",
+        "years":"March 2022 - Present",
+        "description":"Maintaining and developing Facebook games."
+      },
+      {
+        "company":"Big Viking Games",
         "title":"Intermediate Software Developer",
-        "years":"Aug 2021 - Present",
+        "years":"Aug 2021 - March 2022",
         "description":"Maintaining and developing Facebook games."
       },
       {
@@ -70,12 +76,20 @@
         "level":"95%"
       },
       {
+        "name":"ReactJs and Front-end",
+        "level":"50%"
+      },
+      {
+        "name":"Unity",
+        "level":"50%"
+      },
+      {
         "name":"AWS Services",
         "level":"80%"
       },
       {
-        "name":"ReactJs and Front-end",
-        "level":"35%"
+        "name":"PHP",
+        "level":"60%"
       },
       {
         "name":"Scrum",
@@ -83,11 +97,11 @@
       },
       {
         "name":"SQL, Postgres and MongoDB",
-        "level":"80%"
+        "level":"85%"
       },
       {
         "name":"GoLang",
-        "level":"25%"
+        "level":"40%"
       },
       {
         "name":"Delphi",
@@ -95,7 +109,7 @@
       },
       {
         "name":"Java",
-        "level":"40%"
+        "level":"60%"
       }
     ]
   },

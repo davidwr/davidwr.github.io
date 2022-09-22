@@ -2,7 +2,7 @@
   "main": {
     "name":"David William Rigamonte",
     "description":"Senior Software Developer",
-    "image":"profilepic.jpeg",
+    "image":"profilepic.jpg",
     "bio":"Hi, I'm David. I am enthusiastic for information technology, and problem solving.",
     "contactmessage":"Please feel free to contact me.",
     "email": "david_rigamonte3@hotmail.com",
@@ -11,7 +11,7 @@
     "project":"https://github.com/davidwr",
     "address":{
       "country":"Brazil",
-      "city":"Maringá",
+      "city":"Curitiba",
       "state":"PR",
       "zip": ""
     },

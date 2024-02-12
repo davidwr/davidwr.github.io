@@ -1,125 +1,125 @@
 {
   "main": {
-    "name":"David William Rigamonte",
-    "description":"Senior Software Developer",
-    "image":"profilepic.jpg",
-    "bio":"Hi, I'm David. I am enthusiastic for information technology, and problem solving.",
-    "contactmessage":"Please feel free to contact me.",
+    "name": "David William Rigamonte",
+    "description": "Senior Software Developer",
+    "image": "profilepic.jpeg",
+    "bio": "Hi, I'm David. I am enthusiastic for information technology, and problem solving.",
+    "contactmessage": "Please feel free to contact me.",
     "email": "david_rigamonte3@hotmail.com",
     "phone": "",
-    "github":"https://github.com/davidwr",
-    "project":"https://github.com/davidwr",
-    "address":{
-      "country":"Brazil",
-      "city":"Curitiba",
-      "state":"PR",
+    "github": "https://github.com/davidwr",
+    "project": "https://github.com/davidwr",
+    "address": {
+      "country": "Brazil",
+      "city": "Maringá",
+      "state": "PR",
       "zip": ""
     },
     "website": "https://davidwr.github.io",
-    "resumedownload":"https://s3.amazonaws.com/davidwr.github.io/RESUME.pdf",
-    "social":[
+    "resumedownload": "https://s3.amazonaws.com/davidwr.github.io/RESUME.pdf",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/david.rigamonte",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://www.facebook.com/david.rigamonte",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/davidrigamonte/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/davidrigamonte/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"https://www.instagram.com/davidrigamonte/",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "https://www.instagram.com/davidrigamonte/",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/davidwr",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/davidwr",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"",
-    "education":[
+  "resume": {
+    "skillmessage": "",
+    "education": [
       {
-        "school":"Unicesumar",
-        "degree":"Bachelor’s Degree in Information Systems",
-        "graduated":"2014",
-        "description":"In my graduation I had the opportunity to delve into several issues that set up my base to start a career: Object Orientation, interaction design, design patterns, project management, operations research, java development and c ++, database, operating systems, business modeling, economics, computer networks, among others. ESCOLA DE TI (IT School). In the final exam, my team and I (8 members) developed a full web application with back-end and front-end on Java Spring MVC for a Non-governmental organization for blind people. In addition to the programmer function I exercised the scrum master function for much of the time."
+        "school": "Unicesumar",
+        "degree": "Bachelor’s Degree in Information Systems",
+        "graduated": "2014",
+        "description": "In my graduation I had the opportunity to delve into several issues that set up my base to start a career: Object Orientation, interaction design, design patterns, project management, operations research, java development and c ++, database, operating systems, business modeling, economics, computer networks, among others. ESCOLA DE TI (IT School). In the final exam, my team and I (8 members) developed a full web application with back-end and front-end on Java Spring MVC for a Non-governmental organization for blind people. In addition to the programmer function I exercised the scrum master function for much of the time."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Big Viking Games",
-        "title":"Senior Software Developer",
-        "years":"March 2022 - Present",
-        "description":"Maintaining and developing Facebook games."
+        "company": "Big Viking Games",
+        "title": "Senior Software Developer",
+        "years": "Mar 2022 - Feb 2024",
+        "description": "Maintaining and developing Facebook games."
       },
       {
-        "company":"Big Viking Games",
-        "title":"Intermediate Software Developer",
-        "years":"Aug 2021 - March 2022",
-        "description":"Maintaining and developing Facebook games."
+        "company": "Big Viking Games",
+        "title": "Intermediate Software Developer",
+        "years": "Aug 2021 - Mar 2022",
+        "description": "Maintaining and developing Facebook games."
       },
       {
-        "company":"TecnoSpeed TI",
-        "title":"Full Stack Software Developer",
-        "years":"June 2013 - Aug 2021",
-        "description":"Now working at a product called PlugNotas, a modern API, handling a millions of JSON requests in back-end, asyncronous processing, webhooks and using the best practices. Developing a lot of micro services from zero to full deployed on AWS using Elastic Container Services."
+        "company": "TecnoSpeed TI",
+        "title": "Full Stack Software Developer",
+        "years": "June 2013 - Aug 2021",
+        "description": "Now working at a product called PlugNotas, a modern API, handling a millions of JSON requests in back-end, asyncronous processing, webhooks and using the best practices. Developing a lot of micro services from zero to full deployed on AWS using Elastic Container Services."
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Node.js and Back-end development",
-        "level":"95%"
+        "name": "Node.js and Back-end development",
+        "level": "95%"
       },
       {
-        "name":"ReactJs and Front-end",
-        "level":"50%"
+        "name": "AWS Services",
+        "level": "70%"
       },
       {
-        "name":"Unity",
-        "level":"50%"
+        "name": "ReactJs and Front-end",
+        "level": "50%"
       },
       {
-        "name":"AWS Services",
-        "level":"80%"
+        "name": "Scrum",
+        "level": "85%"
       },
       {
-        "name":"PHP",
-        "level":"60%"
+        "name": "SQL, Postgres and MongoDB",
+        "level": "80%"
       },
       {
-        "name":"Scrum",
-        "level":"85%"
+        "name": "GoLang",
+        "level": "25%"
       },
       {
-        "name":"SQL, Postgres and MongoDB",
-        "level":"85%"
+        "name": "Delphi",
+        "level": "70%"
       },
       {
-        "name":"GoLang",
-        "level":"40%"
+        "name": "Java",
+        "level": "50%"
       },
       {
-        "name":"Delphi",
-        "level":"70%"
+        "name": "PHP",
+        "level": "50%"
       },
       {
-        "name":"Java",
-        "level":"60%"
+        "name": "Unity",
+        "level": "50%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Lorem",
-        "category":"Ipsum",
-        "image":"01.jpg",
-        "url":"https://davidwr.github.io"
+        "title": "Lorem",
+        "category": "Ipsum",
+        "image": "01.jpg",
+        "url": "https://davidwr.github.io"
       }
     ]
   }
